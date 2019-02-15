@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(12, 12, 160);
+  margin: 50px 0 0;
+  width: 100%;
+}
+
+header:after {
+  content: "";
+  display: block;
+  width: 85%;
+  max-width: 1140px;
+  margin: 15px auto;
+  height: 5px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.links li {
+  list-style: none;
+  width: 120px;
+  border-bottom: 4px solid transparent;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.links li:hover {
+  border-bottom: 4px solid #222;
+}
+
+main {
+  width: 75%;
+  max-width: 1140px;
+  margin: 30px auto 0;
+  font-size: 1.5rem;
+}
+
+#about p {
+  line-height: 35px;
+}
+
+#contact p,
+#skills p {
+  margin-bottom: 20px;
+}
+
+#contact a {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+#contact a:hover {
+  border-bottom: 4px solid blue;
+}
